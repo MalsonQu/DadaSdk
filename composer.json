@@ -1,0 +1,19 @@
+{
+    "name": "malson/dada-sdk",
+    "description": "dada-sdk",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Malson",
+            "email": "quqingyu@live.cn"
+        }
+    ],
+    "require": {
+        "php":">=5.3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "DadaSdk\\": "./src"
+        }
+    }
+}
