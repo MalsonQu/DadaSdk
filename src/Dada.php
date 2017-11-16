@@ -13,9 +13,9 @@ class Dada
     // | 定义
     // +----------------------------------------------------------------------
 
-    static protected $appKey = 'dadab196f853cea9460';
+    static protected $appKey = 'dadab196f853cea9480';
     // 达达的appSecret
-    static protected $appSecret = '28779e58c7928586f2016fdd23242d49';
+    static protected $appSecret = '28779e58c7928586f2016fdd23242d69';
     // 当前环境 formal = 正式 , test = 测试
     static protected $conditions = '';
     // 正式环境地址
