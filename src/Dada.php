@@ -14,6 +14,7 @@ class Dada
     // | 定义
     // +----------------------------------------------------------------------
 
+    // 达达的appKey
     static protected $appKey = '';
     // 达达的appSecret
     static protected $appSecret = '';
