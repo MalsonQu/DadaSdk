@@ -5,6 +5,7 @@
  * Date: 2017/11/9
  * Time: 上午10:03
  */
+
 namespace DadaSdk;
 
 class Dada
@@ -13,9 +14,9 @@ class Dada
     // | 定义
     // +----------------------------------------------------------------------
 
-    static protected $appKey = 'dadab196f853cea9460';
+    static protected $appKey = '';
     // 达达的appSecret
-    static protected $appSecret = '28779e58c7928586f2016fdd23242d49';
+    static protected $appSecret = '';
     // 当前环境 formal = 正式 , test = 测试
     static protected $conditions = '';
     // 正式环境地址
@@ -91,6 +92,26 @@ class Dada
     public static function setShopNoForFormal ( $shopNoForFormal )
     {
         self::$shopNoForFormal = $shopNoForFormal;
+    }
+
+    /**
+     * 设置appKey
+     *
+     * @param string $appKey
+     */
+    public static function setAppKey ( $appKey )
+    {
+        self::$appKey = $appKey;
+    }
+
+    /**
+     * 设置appSecret
+     *
+     * @param string $appSecret
+     */
+    public static function setAppSecret ( $appSecret )
+    {
+        self::$appSecret = $appSecret;
     }
     // +----------------------------------------------------------------------
     // | 绑定
